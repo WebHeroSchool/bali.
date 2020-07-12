@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Museo;
+  font-style: normal;
+  font-weight: normal;
+  src: url('MuseoSansCyrl-300.eot');
+}
+
+@font-face {
+  font-family: PT serif;
+  font-style: normal;
+  font-weight: bold;
+  src: url('ptserif-bold.eot');
+}
