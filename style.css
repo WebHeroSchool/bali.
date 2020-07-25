@@ -80,7 +80,7 @@ p {
   height: 44px;
   top: 540px;
   left: 154px;
-  font-family: "MuseoSansCyrl300";
+  font-family: "MuseoSansCyrl300" sans-serif;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
