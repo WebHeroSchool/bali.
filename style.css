@@ -1,13 +1,124 @@
+
+@font-face {
+  font-family: "MuseoSansCyrl300", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/MuseoSansCyrl300.eot'),
+  url('./fonts/MuseoSansCyrl300.woff'),
+  url('./fonts/MuseoSansCyrl300.ttf');
+}
+
+@font-face {
+  font-family: "PTSerif", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  src: url('./fonts/PTSerif.eot'),
+  url('./fonts/PTSerif.woff'),
+  url('./fonts/PTSerif.ttf');
+}
+
+.wrap {
+  max-width: 1920px;
+  min-width: 375px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 71px;
+
+}
+
+.header-image {
+  top: 62px;
+  left: 142px;
+  position: absolute;
+  justify-content: center;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
 .header-menu__link {
-font-family: 'MuseoSansCyrl300' sans-serif;
+  font-family: "MuseoSansCyrl300", sans-serif;
+  margin: 0 15px;
+}
+
+.main {
+  color: white;
 }
 
 h1
 ,
 h2 {
-font-family: 'PTSerifBold' sans-serif;
+  font-family: "PTSerif", sans-serif;
+}
+
+h1 {
+  position: absolute;
+  line-height: 265px;
+  top: 58px;
+  left: 145px;
+  font-size: 200px;
+  display: flex;
+  align-items: center;
+  opacity: .4;
+
+}
+
+h2 {
+  position: absolute;
+  width: 390px;
+  height: 93px;
+  top: 293px;
+  left: 200px;
+  font-size: 70px;
+  display: flex;
+  line-height: 99px;
 }
 
 p {
-font-family: 'MuseoSansCyrl300' sans-serif;
+  position: absolute;
+  width: 399px;
+  height: 58px;
+  top: 445px;
+  left: 150px;
+  font-family: "MuseoSansCyrl300", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.button {
+  background-image: url("./bttn.png");
+  background-size: cover;
+  position: absolute;
+  width: 209px;
+  height: 44px;
+  top: 540px;
+  left: 154px;
+  font-family: "MuseoSansCyrl300", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  border-radius: 48px;
+}
+
+.image {
+  position: absolute;
+  height: 300px;
+  left: 680px;
+  top: 275px;
+  border-radius: 5px;
+  margin-left: 24px ;
+}
+
+.img__2 {
+  margin-right: 9px;
+  margin-left: 9px;
+  height: 270px;
+  width: 202px;
 }
