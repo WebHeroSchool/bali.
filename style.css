@@ -1,13 +1,13 @@
 .header-menu__link {
-font-family: 'MuseoSansCyrl300' sans-serif;
+font-family: 'MuseoSansCyrl300', sans-serif;
 }
 
 h1
 ,
 h2 {
-font-family: 'PTSerifBold' sans-serif;
+font-family: 'PTSerif', sans-serif;
 }
 
 p {
-font-family: 'MuseoSansCyrl300' sans-serif;
+font-family: 'MuseoSansCyrl300', sans-serif;
 }
