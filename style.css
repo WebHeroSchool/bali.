@@ -9,12 +9,12 @@
 }
 
 @font-face {
-  font-family: "PTSerifBold", sans-serif;
+  font-family: "PTSerif", sans-serif;
   font-style: normal;
   font-weight: bold;
-  src: url('./fonts/PTSerifBold.eot'),
-  url('./fonts/PTSerifBold.woff'),
-  url('./fonts/PTSerifBold.ttf');
+  src: url('./fonts/PTSerif.eot'),
+  url('./fonts/PTSerif.woff'),
+  url('./fonts/PTSerif.ttf');
 }
 
 .wrap {
@@ -52,8 +52,10 @@ header {
   color: white;
 }
 
-.main-item {
-  font-family: "PTSerifBold", sans-serif;
+h1
+,
+h2 {
+  font-family: "PTSerif", sans-serif;
 }
 
 h1 {
