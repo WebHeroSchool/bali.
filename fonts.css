@@ -1,17 +1,8 @@
 @font-face {
-  font-family: "MuseoSansCyrl300", sans-serif;
+  font-family: Museo, sans-serif;
   font-style: normal;
   font-weight: normal;
   src: url('./fonts/MuseoSansCyrl300.eot'),
   url('./fonts/MuseoSansCyrl300.woff'),
   url('./fonts/MuseoSansCyrl300.ttf');
-}
-
-@font-face {
-  font-family: "PTSerif", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  src: url('./fonts/PTSerif.eot'),
-  url('./fonts/PTSerif.woff'),
-  url('./fonts/PTSerif.ttf');
 }
